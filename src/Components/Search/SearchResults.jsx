@@ -33,7 +33,7 @@ function SearchResults(props) {
                           <Book
                             backgroundImage={value.imageLinks.smallThumbnail}
                             bookTitle={value.title}
-                            bookAuthors="Harper Lee"
+                            bookAuthors={value.authors}
                             shelf={"none"}
                             book={value}
                           />
