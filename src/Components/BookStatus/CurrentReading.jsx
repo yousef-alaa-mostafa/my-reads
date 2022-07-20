@@ -39,7 +39,7 @@ function CurrentReading() {
                       <Book
                         backgroundImage={value.imageLinks.smallThumbnail}
                         bookTitle={value.title}
-                        bookAuthors="Harper Lee"
+                        bookAuthors={value.authors}
                         shelf={value.shelf}
                         book={value}
                       />
